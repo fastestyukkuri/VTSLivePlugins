@@ -1,0 +1,29 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "時間.moc3",
+		"Textures": [
+			"時間.4096/texture_00.png"
+		],
+		"DisplayInfo": "時間.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "touka",
+				"File": "touka.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}

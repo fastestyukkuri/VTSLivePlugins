@@ -1,0 +1,310 @@
+{
+    "Version": 1,
+    "Name": "時間",
+    "ModelID": "0cba19280d7b41d6b4f831f98704c787",
+    "FileReferences": {
+        "Icon": "",
+        "Model": "時間.model3.json",
+        "IdleAnimation": "",
+        "IdleAnimationWhenTrackingLost": ""
+    },
+    "ModelSaveMetadata": {
+        "LastSavedVTubeStudioVersion": "1.15.2",
+        "LastSavedPlatform": "Steam",
+        "LastSavedDateUTC": "Monday, 27 December 2021, 06:30:03",
+        "LastSavedDateLocalTime": "Monday, 27 December 2021, 15:30:03",
+        "LastSavedDateUnixMillisecondTimestamp": "1640586603505"
+    },
+    "SavedModelPosition": {
+        "Position": {
+            "x": -38.937232971191409,
+            "y": -11.800640106201172,
+            "z": 0.0
+        },
+        "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+        },
+        "Scale": {
+            "x": 0.840989351272583,
+            "y": 0.840989351272583,
+            "z": 1.0
+        }
+    },
+    "ModelPositionMovement": {
+        "Use": true,
+        "X": 6,
+        "Y": 8,
+        "Z": 11,
+        "SmoothingX": 10,
+        "SmoothingY": 10,
+        "SmoothingZ": 10
+    },
+    "PhysicsSettings": {
+        "Use": true,
+        "UseLegacyPhysics": false,
+        "Live2DPhysicsFPS": 3,
+        "PhysicsStrength": 50,
+        "WindStrength": 0
+    },
+    "ParameterSettings": [
+        {
+            "Name": "",
+            "Input": "ParamAnalogMinutes",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 60.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 60.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamAnalogTimeMinutes",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamAnalogHour",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 60.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 60.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamAnalogTimeHour",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamDigiSeconds2",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 5.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 5.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamDigiSecond2",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamDigiSeconds1",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 9.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 9.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamDigiSecond1",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamDigiMinute1",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 9.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 9.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamDigiMinute1",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamDigiMinute2",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 5.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 5.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamDigiMinute2",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamDigiHour1",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 9.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 9.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamDigiHour1",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamDigiHour2",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 2.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 2.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamDigiHour2",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "Weather",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 3.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 3.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamWeather",
+            "Smoothing": 100
+        },
+        {
+            "Name": "",
+            "Input": "SunHeight",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 360.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 360.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "Param",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "MoonHeight",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 360.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 360.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "Param2",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "MoonAge",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 29.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 29.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "Param3",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "ParamAnalogSeconds",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 60.0,
+            "OutputRangeLower": 0.0,
+            "OutputRangeUpper": 60.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "ParamAnalogTimeSecond",
+            "Smoothing": 0
+        },
+        {
+            "Name": "",
+            "Input": "DayNight",
+            "InputRangeLower": 0.0,
+            "InputRangeUpper": 1.0,
+            "OutputRangeLower": -1.0,
+            "OutputRangeUpper": 1.0,
+            "ClampInput": false,
+            "ClampOutput": false,
+            "UseBlinking": false,
+            "UseBreathing": false,
+            "OutputLive2D": "",
+            "Smoothing": 20
+        }
+    ],
+    "Hotkeys": [
+        {
+            "HotkeyID": "956939bef3f242ec9fb6e7801d633383",
+            "Name": "",
+            "Action": "ToggleExpression",
+            "File": "touka.exp3.json",
+            "Position": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "Rotation": 0.0
+            },
+            "ColorOverlay": {
+                "On": false,
+                "Display": -1,
+                "WindowName": "",
+                "IncludeLeft": false,
+                "IncludeMid": false,
+                "IncludeRight": false,
+                "BaseValue": 0,
+                "OverlayValue": 0,
+                "Smoothing": 0,
+                "IncludeItems": false
+            },
+            "HandGestureSettings": {
+                "GestureLeft": "",
+                "GestureRight": "",
+                "GestureCombinator": "AND",
+                "AllowMirroredGesture": false,
+                "DeactivateExpWhenGestureNotDetected": false,
+                "SecondsUntilDetection": 0.5,
+                "SecondsDetected": 0.0,
+                "PercentDetected": 0.0
+            },
+            "Triggers": {
+                "Trigger1": "Numpad0",
+                "Trigger2": "",
+                "ScreenButton": -1
+            },
+            "IsGlobal": true,
+            "IsActive": true,
+            "StopsOnLastFrame": false,
+            "DeactivateAfterKeyUp": false,
+            "DeactivateAfterSeconds": false,
+            "DeactivateAfterSecondsAmount": 10.0,
+            "FadeSecondsAmount": 0.5,
+            "OnScreenHotkeyColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            }
+        }
+    ],
+    "HotkeySettings": {
+        "UseOnScreenHotkeys": true,
+        "UseKeyboardHotkeys": true,
+        "SendOnScreenHotkeysToPC": true,
+        "OnScreenHotkeyAlpha": 75
+    }
+}

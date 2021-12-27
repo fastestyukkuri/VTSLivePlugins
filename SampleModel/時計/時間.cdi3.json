@@ -1,0 +1,118 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAnalogTimeSecond",
+			"GroupId": "",
+			"Name": "秒針"
+		},
+		{
+			"Id": "ParamAnalogTimeMinutes",
+			"GroupId": "",
+			"Name": "長針"
+		},
+		{
+			"Id": "ParamAnalogTimeHour",
+			"GroupId": "",
+			"Name": "短針"
+		},
+		{
+			"Id": "ParamDigiSecond1",
+			"GroupId": "",
+			"Name": "秒１"
+		},
+		{
+			"Id": "ParamDigiSecond2",
+			"GroupId": "",
+			"Name": "秒２"
+		},
+		{
+			"Id": "ParamDigiMinute1",
+			"GroupId": "",
+			"Name": "分１"
+		},
+		{
+			"Id": "ParamDigiMinute2",
+			"GroupId": "",
+			"Name": "分２"
+		},
+		{
+			"Id": "ParamDigiHour1",
+			"GroupId": "",
+			"Name": "時１"
+		},
+		{
+			"Id": "ParamDigiHour2",
+			"GroupId": "",
+			"Name": "時２"
+		},
+		{
+			"Id": "ParamWeather",
+			"GroupId": "",
+			"Name": "天気"
+		},
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "太陽"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "月"
+		},
+		{
+			"Id": "Param3",
+			"GroupId": "",
+			"Name": "月満ち欠け"
+		},
+		{
+			"Id": "Param4",
+			"GroupId": "",
+			"Name": "背景透過"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": [
+		{
+			"Id": "Part",
+			"Name": "デジタル"
+		},
+		{
+			"Id": "Part8",
+			"Name": "アナログ"
+		},
+		{
+			"Id": "Part9",
+			"Name": "天気"
+		},
+		{
+			"Id": "Part10",
+			"Name": "日の出日の入り"
+		},
+		{
+			"Id": "Part2",
+			"Name": "時2桁"
+		},
+		{
+			"Id": "Part3",
+			"Name": "時1桁"
+		},
+		{
+			"Id": "Part4",
+			"Name": "分2桁"
+		},
+		{
+			"Id": "Part5",
+			"Name": "分1桁"
+		},
+		{
+			"Id": "Part6",
+			"Name": "秒2桁"
+		},
+		{
+			"Id": "Part7",
+			"Name": "秒1桁"
+		}
+	]
+}
