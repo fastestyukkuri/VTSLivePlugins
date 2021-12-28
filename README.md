@@ -18,9 +18,11 @@ If you have any questions, please contact me on [Twitter](https://twitter.com/fa
 
 ### General
 
-Make sure the API communication of VTube Studio is turned on before launching the plug-in.Also, make sure that the port number is 8001.
+1. Download it by selecting "Download ZIP" from the "Code" button on Github.
 
-When the plugin is launched, it automatically makes API connections and adds 14 custom parameters.
+2. Make sure the API communication of VTube Studio is turned on before launching the plug-in.Also, make sure that the port number is 8001.
+
+3. Launch "VTSLivePlugins.exe" to start communication.When the plugin is launched, it automatically makes API connections and adds 14 custom parameters.
 
 The parameters are updated once every 0.5 seconds.
 
@@ -44,11 +46,15 @@ By entering the latitude and longitude, you can reproduce the movement of the mo
 
 You can also set the maximum values for the sun and moon parameters.
 
+The sunrise/sunset and moonrise/moonset times are updated once an hour.
+
 ### Weathers
 
 Get the weather at the observation point and output it as a parameter to VTube Studio.
 
 There are two modes: one to get the weather from the Japan Meteorological Agency, and the other to get the weather from [OpenWeatherMap](https://openweathermap.org/).
+
+The weather will be updated once an hour.
 
 ## Sample Model
 
